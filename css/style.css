@@ -542,7 +542,7 @@ a.header-logo img {
     width: 765px;
     height: 560px;
     border: 11px solid #fff;
-    background: #fbf8f5 url("../img/ya-map.jpg") no-repeat 0 0;
+    background: #fbf8f5 url("../img/google-map.jpg") no-repeat 0 0;
     box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
     z-index: 10;
 }
