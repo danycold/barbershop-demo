@@ -34,7 +34,24 @@
                       </ul>
                   </nav>
                   <div class="user-block">
-                      <a class="login" href="#">Вход</a>
+                      <a class="login" href="login.html">Вход</a>
+                      <div class="login-popup">
+                          <button class="popup-close" type="button" title="Закрыть">Закрыть</button>
+                          <h2>Личный кабинет</h2>
+                          <p>Введите свой логин и пароль</p>
+                          <form>
+                              <input type="text" name="login" placeholder="Логин">
+                              <input type="password" name="password" placeholder="Пароль">
+                              <label>
+                                  <input type="checkbox" name="remember">
+                                  <span class="checkbox-indicator"></span>
+                                  Запомните меня
+                              </label>
+                              <a href="#">Я забыл пароль!</a>
+                              <button class="btn">Войти</button>
+                          </form>
+                      </div>
+                      <div class="popup-overlay"></div>
                   </div>
             </div>
           </header>
